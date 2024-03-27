@@ -24,9 +24,7 @@ SOFTWARE.
 
 */
 
-import * as RTFJS from './dist/RTFJS.bundle';
-export { RTFJS };
-import * as EMFJS from './dist/EMFJS.bundle';
-export { EMFJS };
-import * as WMFJS from './dist/WMFJS.bundle';
-export { WMFJS };
+import * as RTFJS from "./dist/RTFJS.bundle";
+import * as EMFJS from "./dist/EMFJS.bundle";
+import * as WMFJS from "./dist/WMFJS.bundle";
+export default { RTFJS, EMFJS, WMFJS };
